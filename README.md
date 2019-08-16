@@ -9,6 +9,7 @@ Process for setting up the VM Provisioner:
 2. Update system (yum update)
 3. Install wget (yum install wget)
 4. Install Go following this guide:  https://tecadmin.net/install-go-on-centos/
+5. Set system IP of 169.254.169.254/30 (gateway 169.254.169.253) and ensure this IP is reachable from the rest of the network or at least the VLAN where the VM's will be deployed on
 5. Run post-install commands below
 6. Edit main.go as needed in /root/go/src/github.com/mtnfog/aws-metadata-simulator
 7. Turn off firewalld (systemctl stop firewalld) (systemctl disable firewalld) - or add appropriate rules
