@@ -23,5 +23,6 @@ sudo iptables -t nat -A OUTPUT -p tcp -d 169.254.169.254 --dport 80 -j DNAT --to
 # Usage
 
 when main.go is running you can make CURL requests for user-data using:
-
+```
 curl -X GET http://169.254.169.254/latest/user-data
+```
