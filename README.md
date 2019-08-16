@@ -7,11 +7,11 @@ Process for setting up the VM Provisioner:
 
 1. Install CentOS 7 (default install is fine)
 2. Update system (yum update)
-2. Install wget (yum install wget)
-3. Install Go following this guide:  https://tecadmin.net/install-go-on-centos/
-3. Run post-install commands below
-4. Edit main.go as needed in /root/go/src/github.com/mtnfog/aws-metadata-simulator
-5. Run it using "go run main.go"
+3. Install wget (yum install wget)
+4. Install Go following this guide:  https://tecadmin.net/install-go-on-centos/
+5. Run post-install commands below
+6. Edit main.go as needed in /root/go/src/github.com/mtnfog/aws-metadata-simulator
+7. Run it using "go run main.go"
 
 # Post-Setup
 
